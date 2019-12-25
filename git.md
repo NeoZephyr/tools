@@ -36,6 +36,11 @@ id_rsa.pub
 ```
 
 ```sh
+# 出现 permission denied 问题
+git remote set-url origin git@github.com:NeoZephyr/go-learning.git
+```
+
+```sh
 # 简介方式
 git log --oneline
 # 查看最近 4 次
