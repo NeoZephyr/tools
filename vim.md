@@ -181,6 +181,11 @@ airblade/vim-gitgutter
 junegunn/gv.vim
 :GV
 
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+:GoFmt
+let g:go_fmt_command = "goimports"
+
+
 tmux
 
 笨方法学 vimscript
